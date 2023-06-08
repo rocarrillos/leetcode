@@ -31,9 +31,7 @@ class Solution:
     # 1 OR 1 is 1
     def minFlips(self, a: int, b: int, c: int) -> int:
         flips = 0
-        bin_a = bin(a)
-        bin_b = bin(b)
-        bin_c = bin(c)
+        bin_a, bin_b, bin_c = bin(a), bin(b), bin(c)
         length = max([len(bin_a), len(bin_b), len(bin_c)])
         bin_a = equalize(bin_a, length)
         bin_b = equalize(bin_b, length)
