@@ -1,4 +1,4 @@
-# This is the same as minimum-distance-between-bst-nodes
+# This is the same as minimum-absolute-difference-in-bst
 
 # Definition for a binary tree node.
 # class TreeNode:
