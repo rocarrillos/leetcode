@@ -1,6 +1,6 @@
 class Solution:
     # not super fast but same idea as the fast solutions
-    def summaryRanges(self, nums: List[int]) -> List[str]:
+    def summaryRanges(self, nums: list[int]) -> list[str]:
         if len(nums) == 0:
             return []
         ranges = []
