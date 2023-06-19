@@ -4,6 +4,5 @@ class Solution:
         max_altitude = 0
         for point in gain:
             current_altitude += point
-            if current_altitude > max_altitude:
-                max_altitude = current_altitude
+            max_altitude = max(current_altitude, max_altitude)
         return max_altitude
