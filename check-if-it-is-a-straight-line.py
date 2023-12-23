@@ -2,7 +2,7 @@ def getSlope(a, b):
     return (b[1] - a[1]) / (b[0] - a[0])
 
 class Solution:
-    def checkStraightLine(self, coordinates: List[List[int]]) -> bool:
+    def checkStraightLine(self, coordinates: list[list[int]]) -> bool:
         if len(coordinates) <= 2:
             return True
         # if all Xs are the same, y = mx + b won't work

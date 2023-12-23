@@ -1,5 +1,5 @@
 class Solution:
-    def nextGreatestLetter(self, letters: List[str], target: str) -> str:
+    def nextGreatestLetter(self, letters: list[str], target: str) -> str:
         index_to_chop = 0
         for i in range(len(letters)):
             if letters[i] <= target:

@@ -2,7 +2,7 @@
 
 # initial naive solution
 class Solution:
-    def canMakeArithmeticProgression(self, arr: List[int]) -> bool:
+    def canMakeArithmeticProgression(self, arr: list[int]) -> bool:
         sorted_arr = sorted(arr)
         delta = sorted_arr[1] - sorted_arr[0]
         for i in range(len(arr) - 1):
@@ -12,7 +12,7 @@ class Solution:
     
 # smarter solution with sets
 class Solution:
-    def canMakeArithmeticProgression(self, arr: List[int]) -> bool:
+    def canMakeArithmeticProgression(self, arr: list[int]) -> bool:
         known_nums = set()
         min_val = min(arr)
         max_val = max(arr)
